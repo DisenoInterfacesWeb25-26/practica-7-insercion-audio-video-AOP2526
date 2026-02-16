@@ -1,0 +1,41 @@
+.carousel {
+  min-height: 50vh;
+}
+
+.carousel-inner {
+  position: relative;
+}
+
+.carousel-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  height: 60vh;
+  object-fit: cover;
+  filter: brightness(0.85);
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.btn-outline-primary {
+  transition: all 0.2s;
+}

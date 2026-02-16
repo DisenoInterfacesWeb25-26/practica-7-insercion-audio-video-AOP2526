@@ -1,0 +1,36 @@
+.cielo{
+    background-color: aquamarine;
+    min-height: 100px;
+}
+
+.amarillo{
+    background-color: yellow;
+    min-height: 80px;
+}
+
+.rosa{
+    background-color: pink;
+    min-height: 150px;
+}
+
+.verde{
+    background-color: rgb(60, 248, 60);
+    min-height: 120px;
+}
+
+.verde-oscuro{
+    background-color: rgb(17, 74, 17);
+}
+
+.azul{
+    background-color: blue;
+    min-height: 100px;
+}
+
+[class*="cielo"], [class*="amarillo"], [class*="rosa"], [class*="verde"], [class*="azul"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  padding: 1rem;
+}
